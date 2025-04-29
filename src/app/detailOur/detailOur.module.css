@@ -1,0 +1,39 @@
+.main{
+    width:100%;
+ }
+
+ .title{
+   font-size:2rem;
+   align-items:center;
+   justify-content:center;
+ }
+
+ .content {
+   display: grid;
+   grid-template-columns: 200px 1fr;
+   gap: 1.5rem;
+   margin-bottom: 2rem;
+ }
+
+ .sidePhoto{
+    background-image:url("https://th.bing.com/th/id/R.8f0c8b89f4a991b0bef84bbcf19ae576?rik=jW004RbmpnSI4A&riu=http%3a%2f%2fwww.suntory.co.jp%2fcustomer%2ffaq%2ffigure%2f13-11.jpg&ehk=TMjtIgd3Ij5rwWK6AqiA4ppK3lbnvQWdnKe50ijpe7Y%3d&risl=&pid=ImgRaw&r=0");
+    width:200px;
+    height:300px;
+    background-size: cover;         
+    background-position: center;    
+    background-repeat: no-repeat;
+    
+ }
+ .description{
+   margin-left:1rem;
+   margin-top:3rem;
+   flex:1;
+ }
+ .history {
+   border-top: 1px solid #ccc;
+   padding-top: 1rem;
+ }
+ 
+ .history h2 {
+   margin-bottom: 0.5rem;
+ }
