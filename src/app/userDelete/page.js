@@ -3,6 +3,10 @@ import {useState,useEffect} from "react";
 import {auth} from "../lib/firebase";
 import {EmailAuthProvider,reauthenticateWithCredential,deleteUser} from "firebase/auth";
 import {useRouter} from "next/navigation";
+import Header from "../components/Header/Header";
+import styles from "./userDelete.module.css";
+import Footer from "../components/Footer/Footer";
+import Image from "next/image";
 
 
 export default function UserDelete(){
@@ -33,16 +37,26 @@ export default function UserDelete(){
                 
     return(
         <div>
-            <form onSubmit={userDelete}>
-                <input
-                    type="password"
-                    placeholder="パスワード"
-                    value={inputPassword}
-                    onChange={(e)=>setinputPassword(e.target.value)}
-                    required
-                />
-                <button  type="submit">削除</button>
-            </form>
+            <Header/>
+            <main className={styles.main}>
+                <h1 className={styles.title}>ユーザーの削除を行います</h1>
+                <br/>
+                <h2 className={styles.content}>パスワードを入力してください</h2>
+                <form onSubmit={userDelete} className={styles.content}>
+                    <input
+                        type="password"
+                        placeholder="パスワード"
+                        value={inputPassword}
+                        onChange={(e)=>setinputPassword(e.target.value)}
+                        required
+                    />
+                    <br/>
+                    <button  type="submit">
+                        <Image src="/buttonDelete.svg" alt="削除ボタン" width={70} height={25}/>
+                    </button>
+                </form>
+            </main>
+            <Footer/>
             
         </div>
         

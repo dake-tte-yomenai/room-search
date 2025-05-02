@@ -1,0 +1,45 @@
+/* [project]/src/app/signup/signup.module.css [app-client] (css) */
+.signup-module__8Fjwta__header {
+  color: #fff;
+  background-color: #1e3a8a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+
+.signup-module__8Fjwta__logo {
+  margin-left: 1rem;
+}
+
+.signup-module__8Fjwta__main {
+  width: 100%;
+  height: 500px;
+}
+
+.signup-module__8Fjwta__title {
+  justify-content: center;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.signup-module__8Fjwta__content {
+  justify-content: center;
+  display: flex;
+}
+
+.signup-module__8Fjwta__footer {
+  color: #fff;
+  background-color: #1e3a8a;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+}
+
+
+/*# sourceMappingURL=src_app_signup_signup_module_3d5b711a.css.map*/

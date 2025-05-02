@@ -12,10 +12,17 @@ export default function LoginPage(){
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
 
+    
     const handleLogin=async(e)=>{
         e.preventDefault();
         try{
-            await signInWithEmailAndPassword(auth,email,password);
+            const userCredential = await signInWithEmailAndPassword(auth,email,password);
+            const user = userCredential.user;
+            if(!user.emailVerified){
+                alert("メールアドレスが確認できません。メールを確認してください。")
+                return;
+            }
+
             router.push(`/home`)
         }catch{
             alert("ログイン失敗");

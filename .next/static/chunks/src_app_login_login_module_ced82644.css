@@ -1,0 +1,45 @@
+/* [project]/src/app/login/login.module.css [app-client] (css) */
+.login-module__WEZH7G__header {
+  color: #fff;
+  background-color: #1e3a8a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+
+.login-module__WEZH7G__logo {
+  margin-left: 1rem;
+}
+
+.login-module__WEZH7G__main {
+  width: 100%;
+  height: 500px;
+}
+
+.login-module__WEZH7G__title {
+  justify-content: center;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.login-module__WEZH7G__content {
+  justify-content: center;
+  display: flex;
+}
+
+.login-module__WEZH7G__footer {
+  color: #fff;
+  background-color: #1e3a8a;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+}
+
+
+/*# sourceMappingURL=src_app_login_login_module_ced82644.css.map*/
