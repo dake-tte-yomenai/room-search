@@ -1,7 +1,8 @@
 /* [project]/src/app/components/Header/Header.module.css [app-client] (css) */
 .Header-module__gbg3bW__header {
-  color: #fff;
-  background-color: #1e3a8a;
+  color: gray;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
@@ -69,8 +70,9 @@
 
 /* [project]/src/app/components/Footer/Footer.module.css [app-client] (css) */
 .Footer-module__8-teKW__footer {
-  color: #fff;
-  background-color: #1e3a8a;
+  color: gray;
+  background-color: #fff;
+  border-top: 1px solid #000;
   justify-content: center;
   width: 100%;
   height: 40px;
@@ -81,13 +83,26 @@
 
 /* [project]/src/app/components/Main/Main.module.css [app-client] (css) */
 .Main-module__eWrX8a__intro {
-  background-image: url("/shibauraCampus.jpg");
+  background-image: url("/shibauraClass.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 400px;
   display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Main-module__eWrX8a__intro:before {
+  content: "";
+  z-index: 0;
+  background-color: #0006;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .Main-module__eWrX8a__left {
@@ -98,13 +113,13 @@
   color: #fff;
   opacity: 0;
   margin-left: 1rem;
-  font-size: 30px;
+  font-size: 50px;
   animation: 6s ease-in-out infinite Main-module__eWrX8a__fadeInOut;
   transform: translateY(10px);
 }
 
 .Main-module__eWrX8a__line1 {
-  animation-delay: 1s;
+  animation-delay: 0s;
 }
 
 .Main-module__eWrX8a__line2 {
@@ -174,7 +189,7 @@
   justify-content: center;
   margin-top: 1rem;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 

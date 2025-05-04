@@ -34,12 +34,11 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.v({
-  "content": "signup-module__8Fjwta__content",
-  "footer": "signup-module__8Fjwta__footer",
-  "header": "signup-module__8Fjwta__header",
-  "logo": "signup-module__8Fjwta__logo",
+  "btn": "signup-module__8Fjwta__btn",
+  "inputBox": "signup-module__8Fjwta__inputBox",
   "main": "signup-module__8Fjwta__main",
-  "title": "signup-module__8Fjwta__title",
+  "pusher": "signup-module__8Fjwta__pusher",
+  "wrapper": "signup-module__8Fjwta__wrapper",
 });
 }}),
 "[project]/src/app/signup/page.js [app-client] (ecmascript)": ((__turbopack_context__) => {
@@ -91,45 +90,23 @@ function SignupPage() {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].header,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    children: "Welcome to SIT!!!"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/signup/page.js",
-                    lineNumber: 36,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/signup/page.js",
-                lineNumber: 35,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].main,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].main,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].wrapper,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
-                        children: "新規登録"
+                        children: "SignUp"
                     }, void 0, false, {
                         fileName: "[project]/src/app/signup/page.js",
-                        lineNumber: 39,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
-                        children: "メールアドレスとパスワードを入力して登録してください"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/signup/page.js",
-                        lineNumber: 40,
-                        columnNumber: 17
+                        lineNumber: 37,
+                        columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                         onSubmit: handleSignup,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].inputBox,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                     type: "email",
                                     placeholder: "メールアドレス",
@@ -138,21 +115,16 @@ function SignupPage() {
                                     required: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/signup/page.js",
-                                    lineNumber: 43,
-                                    columnNumber: 25
+                                    lineNumber: 40,
+                                    columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/signup/page.js",
-                                lineNumber: 42,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/app/signup/page.js",
-                                lineNumber: 51,
-                                columnNumber: 21
+                                lineNumber: 39,
+                                columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].inputBox,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                     type: "password",
                                     placeholder: "パスワード",
@@ -161,75 +133,66 @@ function SignupPage() {
                                     required: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/signup/page.js",
-                                    lineNumber: 53,
-                                    columnNumber: 25
+                                    lineNumber: 49,
+                                    columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/signup/page.js",
-                                lineNumber: 52,
-                                columnNumber: 21
+                                lineNumber: 48,
+                                columnNumber: 25
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/app/signup/page.js",
-                                lineNumber: 61,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    type: "submit",
-                                    children: "登録"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/signup/page.js",
-                                    lineNumber: 63,
-                                    columnNumber: 25
-                                }, this)
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                type: "submit",
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].btn,
+                                children: "SignUp"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/signup/page.js",
-                                lineNumber: 62,
-                                columnNumber: 21
+                                lineNumber: 57,
+                                columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/signup/page.js",
-                        lineNumber: 41,
-                        columnNumber: 17
+                        lineNumber: 38,
+                        columnNumber: 21
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/src/app/signup/page.js",
-                        lineNumber: 66,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/src/app/signup/page.js",
-                        lineNumber: 67,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
-                        href: "/login",
-                        children: "ログインはこちらから"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].pusher,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: [
+                                "ログインは",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/login",
+                                    children: "こちら"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/signup/page.js",
+                                    lineNumber: 60,
+                                    columnNumber: 33
+                                }, this),
+                                "から"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/signup/page.js",
+                            lineNumber: 60,
+                            columnNumber: 25
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/signup/page.js",
-                        lineNumber: 68,
-                        columnNumber: 17
+                        lineNumber: 59,
+                        columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/signup/page.js",
-                lineNumber: 38,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$signup$2f$signup$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].footer,
-                children: "created by our"
-            }, void 0, false, {
-                fileName: "[project]/src/app/signup/page.js",
-                lineNumber: 70,
-                columnNumber: 13
+                lineNumber: 36,
+                columnNumber: 17
             }, this)
-        ]
-    }, void 0, true, {
+        }, void 0, false, {
+            fileName: "[project]/src/app/signup/page.js",
+            lineNumber: 35,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/signup/page.js",
         lineNumber: 34,
         columnNumber: 9

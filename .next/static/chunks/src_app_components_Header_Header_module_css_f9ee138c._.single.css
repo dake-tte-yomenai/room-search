@@ -1,7 +1,8 @@
 /* [project]/src/app/components/Header/Header.module.css [app-client] (css) */
 .Header-module__gbg3bW__header {
-  color: #fff;
-  background-color: #1e3a8a;
+  color: gray;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;

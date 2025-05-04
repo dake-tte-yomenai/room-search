@@ -31,5 +31,29 @@
         "availability": [
             {"day": "金", "period": "２限"}
         ]
+    },
+    {
+        "name":"701",
+        "availability":[
+            {"day":"月","period":""},
+            {"day":"火","period":""},
+            {"day":"水","period":""},
+            {"day":"木","period":""},
+            {"day":"金","period":"５限"},
+            {"day":"土","period":""}
+
+        ]
+    },
+    {
+        "name":"1k89",
+        "availability":[
+            {"day":"月","period":""},
+            {"day":"火","period":""},
+            {"day":"水","period":""},
+            {"day":"木","period":""},
+            {"day":"金","period":"６限"},
+            {"day":"土","period":""}
+
+        ]
     }
 ]
