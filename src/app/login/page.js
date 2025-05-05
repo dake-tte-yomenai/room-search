@@ -12,10 +12,17 @@ export default function LoginPage(){
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
 
+    
     const handleLogin=async(e)=>{
         e.preventDefault();
         try{
-            await signInWithEmailAndPassword(auth,email,password);
+            const userCredential = await signInWithEmailAndPassword(auth,email,password);
+            const user = userCredential.user;
+            if(!user.emailVerified){
+                alert("メールアドレスが確認できません。メールを確認してください。")
+                return;
+            }
+
             router.push(`/home`)
         }catch{
             alert("ログイン失敗");
@@ -24,45 +31,36 @@ export default function LoginPage(){
 
     return(
         <div>
-            <header className={styles.header}>
-                <div className={styles.logo}>Welcome to SIT!!!</div>
-            </header>
             <main className={styles.main}>
-                <h1 className={styles.title}>ログイン画面</h1>
-                <div className={styles.content}>メールアドレスとパスワードを入力してください </div>
-                <br/>
-                <form onSubmit={handleLogin}>
-                    <div className={styles.content}>
-                    <input 
-                        type="email"
-                        placeholder="メールアドレス"
-                        value={email}
-                        onChange={(e)=>setEmail(e.target.value)}
-                        required
-                    />
-                    </div>
-                    <br/>
-                    <div className={styles.content} >
-                        <input
-                            type="password"
-                            placeholder="パスワード"
-                            value={password}
-                            onChange={(e)=>setPassword(e.target.value)}
-                            required
-                        />
-                    </div>
-                    <br/>
-                    <div className={styles.content} >
-                        <button type="submit">ログイン</button>
-                    </div>
-                    <br/>
-                    <br/>
-                </form>
-
-                <Link className={styles.title} href="/signup">新規登録の方はこちらへ</Link>
+                <div className={styles.wrapper}>
+                    <form onSubmit={handleLogin}>
+                        <h1>Login</h1>
+                        <div className={styles.inputBox}>
+                            <input 
+                                type="email"
+                                placeholder="メールアドレス"
+                                value={email}
+                                onChange={(e)=>setEmail(e.target.value)}
+                                required
+                            />
+                        </div>
+                        <div className={styles.inputBox}>
+                            <input 
+                                type="password"
+                                placeholder="パスワード"
+                                value={password}
+                                onChange={(e)=>setPassword(e.target.value)}
+                                required
+                            />
+                        </div>
+                        <button type="submit" className={styles.btn}>Login</button>
+                        <br/>
+                        <div className={styles.registerLink}>
+                            <p>アカウントを持っていない方は<a href="/signup">こちら</a>へ</p>
+                        </div>
+                    </form>
+                </div>
             </main>
-            
-            <footer className={styles.footer}>created by our</footer>
         </div>
     );
 

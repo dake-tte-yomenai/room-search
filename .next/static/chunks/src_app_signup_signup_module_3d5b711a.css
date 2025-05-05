@@ -1,0 +1,79 @@
+/* [project]/src/app/signup/signup.module.css [app-client] (css) */
+.signup-module__8Fjwta__main {
+  background-image: url("/shibauraSignup.jpg");
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.signup-module__8Fjwta__wrapper {
+  backdrop-filter: blur(10px);
+  color: #fff;
+  background: none;
+  border: 2px solid #fff3;
+  border-radius: 10px;
+  width: 420px;
+  padding: 30px;
+}
+
+.signup-module__8Fjwta__wrapper h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.signup-module__8Fjwta__wrapper .signup-module__8Fjwta__inputBox {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.signup-module__8Fjwta__inputBox input {
+  color: #fff;
+  background-color: #0000;
+  border: 2px solid #fff3;
+  border-radius: 40px;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 20px 45px 20px 20px;
+  font-size: 16px;
+}
+
+.signup-module__8Fjwta__inputBox input::placeholder {
+  color: #fff;
+}
+
+.signup-module__8Fjwta__wrapper .signup-module__8Fjwta__btn {
+  color: #000;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signup-module__8Fjwta__wrapper .signup-module__8Fjwta__pusher {
+  text-align: center;
+  margin: 20px 0 15px;
+  font-size: 14px;
+}
+
+.signup-module__8Fjwta__pusher p a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.signup-module__8Fjwta__pusher p a:hover {
+  text-decoration: underline;
+}
+
+
+/*# sourceMappingURL=src_app_signup_signup_module_3d5b711a.css.map*/

@@ -1,0 +1,84 @@
+/* [project]/src/app/components/Header/Header.module.css [app-client] (css) */
+.Header-module__gbg3bW__header {
+  color: gray;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+
+.Header-module__gbg3bW__logo {
+  margin-left: 1rem;
+}
+
+.Header-module__gbg3bW__menuIcon {
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 2rem;
+  position: relative;
+}
+
+.Header-module__gbg3bW__dropdown {
+  color: #333;
+  z-index: 10;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: .5rem;
+  min-width: 300px;
+  padding: .5rem;
+  display: flex;
+  position: absolute;
+  top: 60px;
+  right: 1rem;
+}
+
+.Header-module__gbg3bW__dropdown a {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.Header-module__gbg3bW__dropdown a:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: .3rem;
+}
+
+.Header-module__gbg3bW__Button {
+  color: #333;
+  cursor: pointer;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.Header-module__gbg3bW__Button:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: .3rem;
+}
+
+
+/* [project]/src/app/components/Footer/Footer.module.css [app-client] (css) */
+.Footer-module__8-teKW__footer {
+  color: gray;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+}
+
+
+/*# sourceMappingURL=src_app_components_95a83e17._.css.map*/
