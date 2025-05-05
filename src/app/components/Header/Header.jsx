@@ -52,6 +52,7 @@ export default function Header(){
                             ログアウト
                         </button>
                         <Link href="/userDelete">ユーザー削除</Link>
+                        <Link href="/feedback">フィードバック</Link>
                     </div>  
 
                 )}

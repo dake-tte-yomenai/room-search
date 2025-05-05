@@ -81,47 +81,4 @@
 }
 
 
-/* [project]/src/app/detailOur/detailOur.module.css [app-client] (css) */
-.detailOur-module__MbhCKa__main {
-  width: 100%;
-}
-
-.detailOur-module__MbhCKa__title {
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-}
-
-.detailOur-module__MbhCKa__content {
-  grid-template-columns: 200px 1fr;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-  display: grid;
-}
-
-.detailOur-module__MbhCKa__sidePhoto {
-  background-image: url("https://th.bing.com/th/id/R.8f0c8b89f4a991b0bef84bbcf19ae576?rik=jW004RbmpnSI4A&riu=http%3a%2f%2fwww.suntory.co.jp%2fcustomer%2ffaq%2ffigure%2f13-11.jpg&ehk=TMjtIgd3Ij5rwWK6AqiA4ppK3lbnvQWdnKe50ijpe7Y%3d&risl=&pid=ImgRaw&r=0");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 200px;
-  height: 300px;
-}
-
-.detailOur-module__MbhCKa__description {
-  flex: 1;
-  margin-top: 3rem;
-  margin-left: 1rem;
-}
-
-.detailOur-module__MbhCKa__history {
-  border-top: 1px solid #ccc;
-  padding-top: 1rem;
-}
-
-.detailOur-module__MbhCKa__history h2 {
-  margin-bottom: .5rem;
-}
-
-
-/*# sourceMappingURL=src_app_76ee43f6._.css.map*/
+/*# sourceMappingURL=src_app_components_95a83e17._.css.map*/
