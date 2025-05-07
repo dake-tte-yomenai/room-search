@@ -361,7 +361,7 @@ function HomePage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Header$2f$Header$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/home/page.js",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -380,19 +380,19 @@ function HomePage() {
                                         children: "S"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home/page.js",
-                                        lineNumber: 36,
+                                        lineNumber: 37,
                                         columnNumber: 69
                                     }, this),
                                     "hibaura"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home/page.js",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/app/home/page.js",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -405,19 +405,19 @@ function HomePage() {
                                         children: "I"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home/page.js",
-                                        lineNumber: 38,
+                                        lineNumber: 39,
                                         columnNumber: 69
                                     }, this),
                                     "nstitute of"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home/page.js",
-                                lineNumber: 38,
+                                lineNumber: 39,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/app/home/page.js",
-                                lineNumber: 39,
+                                lineNumber: 40,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -430,20 +430,20 @@ function HomePage() {
                                         children: "T"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home/page.js",
-                                        lineNumber: 40,
+                                        lineNumber: 41,
                                         columnNumber: 69
                                     }, this),
                                     "echnology"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/home/page.js",
-                                lineNumber: 40,
+                                lineNumber: 41,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/home/page.js",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -455,38 +455,38 @@ function HomePage() {
                                     children: "有意義な"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 44,
+                                    lineNumber: 45,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: "　学生生活を"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: "　　　あなたに"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 46,
+                                    lineNumber: 47,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/home/page.js",
-                            lineNumber: 43,
+                            lineNumber: 44,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/home/page.js",
-                        lineNumber: 42,
+                        lineNumber: 43,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/home/page.js",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -497,7 +497,7 @@ function HomePage() {
                         children: "曜日と時限を入力して検索してみよう"
                     }, void 0, false, {
                         fileName: "[project]/src/app/home/page.js",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -517,7 +517,7 @@ function HomePage() {
                                                     children: "月"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 61,
+                                                    lineNumber: 62,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -525,7 +525,7 @@ function HomePage() {
                                                     children: "火"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 62,
+                                                    lineNumber: 63,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -533,7 +533,7 @@ function HomePage() {
                                                     children: "水"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 63,
+                                                    lineNumber: 64,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -541,7 +541,7 @@ function HomePage() {
                                                     children: "木"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 64,
+                                                    lineNumber: 65,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -549,7 +549,7 @@ function HomePage() {
                                                     children: "金"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 65,
+                                                    lineNumber: 66,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -557,24 +557,24 @@ function HomePage() {
                                                     children: "土"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 66,
+                                                    lineNumber: 67,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home/page.js",
-                                            lineNumber: 60,
+                                            lineNumber: 61,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 69,
+                                    lineNumber: 70,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -589,7 +589,7 @@ function HomePage() {
                                                     children: "１限"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 73,
+                                                    lineNumber: 74,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -597,7 +597,7 @@ function HomePage() {
                                                     children: "２限"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 74,
+                                                    lineNumber: 75,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -605,7 +605,7 @@ function HomePage() {
                                                     children: "３限"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 75,
+                                                    lineNumber: 76,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -613,7 +613,7 @@ function HomePage() {
                                                     children: "４限"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 76,
+                                                    lineNumber: 77,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -621,24 +621,24 @@ function HomePage() {
                                                     children: "５限"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/home/page.js",
-                                                    lineNumber: 77,
+                                                    lineNumber: 78,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/home/page.js",
-                                            lineNumber: 72,
+                                            lineNumber: 73,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 70,
+                                    lineNumber: 71,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -650,40 +650,40 @@ function HomePage() {
                                         height: 30
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/home/page.js",
-                                        lineNumber: 82,
+                                        lineNumber: 83,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/home/page.js",
-                                    lineNumber: 81,
+                                    lineNumber: 82,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/home/page.js",
-                            lineNumber: 57,
+                            lineNumber: 58,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/home/page.js",
-                        lineNumber: 56,
+                        lineNumber: 57,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/home/page.js",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Footer$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/home/page.js",
-                lineNumber: 88,
+                lineNumber: 89,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/home/page.js",
-        lineNumber: 32,
+        lineNumber: 33,
         columnNumber: 9
     }, this);
 }

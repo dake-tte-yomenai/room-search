@@ -10,8 +10,9 @@
 
 /* [project]/src/app/components/Header/Header.module.css [app-client] (css) */
 .Header-module__gbg3bW__header {
-  color: #fff;
-  background-color: #1e3a8a;
+  color: gray;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
@@ -79,8 +80,9 @@
 
 /* [project]/src/app/components/Footer/Footer.module.css [app-client] (css) */
 .Footer-module__8-teKW__footer {
-  color: #fff;
-  background-color: #1e3a8a;
+  color: gray;
+  background-color: #fff;
+  border-top: 1px solid #000;
   justify-content: center;
   width: 100%;
   height: 40px;

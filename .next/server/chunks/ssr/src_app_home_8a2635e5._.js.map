@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/home/Loading.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"circle-spin-1-animation\": \"Loading-module__u7Voaq__circle-spin-1-animation\",\n  \"circleSpin\": \"Loading-module__u7Voaq__circleSpin\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/dkryo/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/created-by-our/room-finder/src/app/home/loading.js"],"sourcesContent":["import styles from \"./Loading.module.css\"\r\n\r\nexport default function Loading(){\r\n    return(\r\n        <div className={styles.circleSpin}></div>\r\n    )\r\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAW,yIAAA,CAAA,UAAM,CAAC,UAAU;;;;;;AAEzC","debugId":null}}]
+}

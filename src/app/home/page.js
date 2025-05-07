@@ -10,6 +10,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 export default function HomePage (){
+    
    const [day,setDay]=useState("月");
    const [period,setPeriod]=useState("１限");
    const router =useRouter();
