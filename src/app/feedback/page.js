@@ -18,21 +18,30 @@ export default function FeedbackPage() {
             <Header/>
 
             <div className={styles.main}>
-                <h1>フィードバックフォーム</h1>
-                <textarea
-                    className={styles.text}
-                    value={feedback}
-                    onChange={(e) => setFeedback(e.target.value)}
-                    placeholder="ご意見を入力してください"
-                    rows="5"
-                    cols="40"
-                />
-                <br />
-                <button onClick={handleSubmit}>
-                    送信
-                </button>
+                <div className={styles.box}>
+                    <div className={styles.main1}>
+                        <h1>
+                            フィードバックフォーム
+                        </h1>
+                    </div>
+                    <div className={styles.main2}>
+                        <textarea
+                            value={feedback}
+                            onChange={(e) => setFeedback(e.target.value)}
+                            placeholder="ご意見を入力してください"
+                            rows="5"
+                            colums="40"
+                        />
+                    </div>
+                    <br />
+                    <div className={styles.main3}>
+                        <button onClick={handleSubmit}>
+                        送信
+                    </button>
+                    </div> 
+                </div>
+               
             </div>
-            
             <Footer/>
         </div>
     );

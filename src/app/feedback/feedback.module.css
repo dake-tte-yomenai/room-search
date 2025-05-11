@@ -1,10 +1,49 @@
 .main{
-    width:100%;
+    max-width: 1200px;
     height:80vh;
-}
-.main h1{
     display:flex;
     justify-content:center;
+}
+.main .box{
+    width:80%;
+    height:auto;
+}
+.box .main1 {
+    
     font-weight:bold;
+    width: 100%;
     font-size: 20px;
+}
+.main1 h1{
+    text-align: center;
+}
+.main2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:60vh;
+}
+.main2 textarea{ 
+    height: 60vh;
+    width: 100%;
+}
+.main3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-end;
+}
+.main3 button {
+    background-color: #007BFF;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+.main button:hover{
+    background-color: #0056b3;
 }
