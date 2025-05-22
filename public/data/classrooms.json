@@ -1,0 +1,59 @@
+[
+    {
+        "name":"",
+        "availability":[
+            {"day":"月","period":""},
+            {"day":"火","period":""},
+            {"day":"水","period":""},
+            {"day":"木","period":""},
+            {"day":"金","period":""},
+            {"day":"土","period":""}
+
+        ]
+    },
+
+    {
+        "name": "301",
+        "availability": [
+            {"day": "月", "period": "１限"},
+            {"day": "火", "period": "２限"}
+        ]
+    },
+    {
+        "name": "302",
+        "availability": [
+            {"day": "月", "period": "３限"},
+            {"day": "水", "period": "１限"}
+        ]
+    },
+    {
+        "name": "104",
+        "availability": [
+            {"day": "金", "period": "２限"}
+        ]
+    },
+    {
+        "name":"701",
+        "availability":[
+            {"day":"月","period":""},
+            {"day":"火","period":""},
+            {"day":"水","period":""},
+            {"day":"木","period":""},
+            {"day":"金","period":"５限"},
+            {"day":"土","period":""}
+
+        ]
+    },
+    {
+        "name":"1k89",
+        "availability":[
+            {"day":"月","period":""},
+            {"day":"火","period":""},
+            {"day":"水","period":""},
+            {"day":"木","period":""},
+            {"day":"金","period":"６限"},
+            {"day":"土","period":""}
+
+        ]
+    }
+]

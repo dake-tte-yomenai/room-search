@@ -44,7 +44,6 @@ export default function Header(){
                 {isOpen && (
                     <div className={styles.dropdown}>
                         <Link href="/home">ホーム</Link>
-                        <Link href="/list">空き教室一覧</Link>
                         <Link href="/rule">利用規約</Link>
                         <button onClick={handleNowClick} className={styles.Button}>
                             現在の空き教室一覧
@@ -53,6 +52,7 @@ export default function Header(){
                             ログアウト
                         </button>
                         <Link href="/userDelete">ユーザー削除</Link>
+                        <Link href="/feedback">フィードバック</Link>
                     </div>  
 
                 )}

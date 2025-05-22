@@ -32,42 +32,37 @@ export default function SignupPage(){
 
     return(
         <div>
-            <header className={styles.header}>
-                <h1>Welcome to SIT!!!</h1>
-            </header>
             <main className={styles.main}>
-                <h1 className={styles.title}>新規登録</h1>
-                <div className={styles.content}>メールアドレスとパスワードを入力して登録してください</div>
-                <form onSubmit={handleSignup}>
-                    <div className={styles.content}>
-                        <input
-                            type="email"
-                            placeholder="メールアドレス"
-                            value={email}
-                            onChange={(e)=>setEmail(e.target.value)}
-                            required
-                        />
+                <div className={styles.wrapper}>
+                    <h1>SignUp</h1>
+                    <form onSubmit={handleSignup}>
+                        <div className={styles.inputBox}>
+                            <input
+                                type="email"
+                                placeholder="メールアドレス"
+                                value={email}
+                                onChange={(e)=>setEmail(e.target.value)}
+                                required
+                                />
+                        </div>
+                        <div className={styles.inputBox}>
+                            <input
+                                type="password"
+                                placeholder="パスワード"
+                                value={password}
+                                onChange={(e)=>setPassword(e.target.value)}
+                                required
+                            />
+                        </div>
+                        <button type="submit" className={styles.btn}>SignUp</button>
+                    </form>
+                    <div className={styles.pusher}>
+                        <p>ログインは<a href="/login">こちら</a>から</p>
                     </div>
-                    <br/>
-                    <div className={styles.content} >
-                        <input
-                            type="password"
-                            placeholder="パスワード"
-                            value={password}
-                            onChange={(e)=>setPassword(e.target.value)}
-                            required
-                        />
-                    </div>
-                    <br/>
-                    <div className={styles.content} >
-                        <button type="submit">登録</button>
-                    </div>
-                </form>
-                <br/>
-                <br/>
-                <Link className={styles.title} href="/login">ログインはこちらから</Link>
+                    
+                </div>
+                
             </main>
-            <footer className={styles.footer}>created by our</footer>
         </div>
     )
 }

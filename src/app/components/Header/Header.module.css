@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1e3a8a;
-    color: white;
+    background-color: white;
+    color: gray;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     position: relative;
+    border-bottom:1px solid black;
   }
   
   .logo {

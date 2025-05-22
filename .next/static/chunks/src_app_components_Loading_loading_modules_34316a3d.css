@@ -1,0 +1,29 @@
+/* [project]/src/app/components/Loading/loading.modules.css [app-client] (css) */
+.circleSpin1 {
+  --size: 24px;
+  --stroke-width: calc(var(--size) / 6);
+  --color: currentColor;
+  --animation-timing-function: linear;
+  --animation-duration: 1s;
+  width: var(--size);
+  height: var(--size);
+  border-width: var(--stroke-width);
+  border-style: solid;
+  border-color: var(--color) var(--color) var(--color) transparent;
+  animation: var(--animation-timing-function) var(--animation-duration) infinite circle-spin-1-animation;
+  border-radius: 50%;
+  transform: rotate(0);
+}
+
+@keyframes circle-spin-1-animation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*# sourceMappingURL=src_app_components_Loading_loading_modules_34316a3d.css.map*/
